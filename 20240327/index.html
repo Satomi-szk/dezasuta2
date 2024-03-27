@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+
+<body>
+    <script>
+        var test = "これはJavaScript記述例です";
+        var test = "これはJSです";　//再宣言
+        test = "これはJavaScriptです";　//再代入
+        console.log(test);
+
+        let test01 = "これはJavaScript記述例です";
+        // let test01 = "これはJSです";
+        test01 = "これはJavaScriptです";
+        console.log(test01);
+
+        const test02 = "これはJavaScript記述例です";
+        console.log(test02);
+
+        var test03 = "1+2";
+        console.log(test03);
+
+        var test04 = 1 + 2;
+        console.log(test04);
+
+        var test05 = true;
+        var test05 = false;
+        console.log(test05);
+
+        var array = ["りんご", "みかん", "ぶどう",];
+        console.log(array);
+        console.log(array[2]);
+
+        console.log(array.length);
+        array.push("もも");
+        console.log(array);
+
+        var nam = 5;
+        if (nam > 10) {
+            console.log("これは10より大きいです");
+        } else if (nam > 4) {
+            console.log("これは4より大きいです");
+        } else {
+            console.log("これは10より小さいです");
+        }
+
+        var nam01 = 5;
+        if (nam01 == "5") {
+            console.log("これは5です");
+        }
+
+        var nam02 = "5";
+        if (nam02 === "5") {
+            console.log("これは文字列型の5です");
+        }
+
+        var nam03 = 4;
+        if (nam03 != 6) {
+            console.log("これは4ではありません");
+        }
+
+        var nam04 = 4;
+        if (nam04 !== "4") {
+            console.log("これは文字列型の4ではありません");
+        }
+
+        let total = 2;
+        while (total < 100) {
+            total = total * 2;
+
+        }
+        console.log(total);
+
+        let total02 = 1;
+        for (i = 0; i < 4; i++) {
+            total02 = total02 + 1;
+
+        }
+        console.log(total02);
+    </script>
+</body>
+
+</html>
